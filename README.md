@@ -47,10 +47,10 @@ Main Menu ----> Level Select ----> Transition ----> Preview ----> Level 1
   |--> Instructions                                    win ---------|
   |--> Credits                                          |           |--> lose --> Lose State
   |--> Settings (overlay)                               v
-  |--> Exit (overlay)                       Transition -> Preview -> Level 2 -> Level 3
-                                                                                  |
-                                                                                  v
-                                                                              Win State
+  |--> Exit (overlay)                               Transition -> Preview -> Level 2 -> Level 3
+                                                                                            |
+                                                                                            v
+                                                                                        Win State
 ```
 
 Everything on that diagram is a class implementing one interface, driven by one manager. The three
@@ -491,16 +491,6 @@ I am also credited at fifteen percent on `Audio.cpp` and `Enemy.cpp`.
 
 WAVES was built by five people. The systems above are mine. The rest of the game is not, and the
 larger parts of it belong to others.
-
-| Area | Author |
-|---|---|
-| Wave mechanic, the thing the game is named after | Chewn Thing Kwan |
-| Maze loading, rendering and map data | Jordain Ng, with Guan Shao Jun |
-| Player movement, collision and keycard pickup | Jordain Ng, with Guan Shao Jun |
-| Rock throwing | Guan Shao Jun |
-| Enemy behaviour | Benjamin Ban, with Jordain Ng and myself |
-| Audio system | Jordain Ng, with myself |
-| Team lead | Ban Kai Wei Benjamin |
 
 Built on AlphaEngine, provided by DigiPen Institute of Technology Singapore.
 Copyright (C) 2025 DigiPen Institute of Technology.
