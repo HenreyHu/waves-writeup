@@ -7,6 +7,10 @@ You are trapped in a dark maze with restricted vision. Rocks generate waves of l
 you throw them to reveal the layout ahead and to pull patrolling enemies away from your route. Find
 the keycards, reach the exit, do not get caught. Three levels, increasing difficulty.
 
+![WAVES gameplay, a thrown vision rock reveals the maze around the player](docs/waves-vision-rock.gif)
+
+*Footage from the game trailer.* 
+
 **My role.** Programmer. I owned the game state architecture and the shared interface layer, which
 means the state machine every screen in the game runs through, the fifteen screens built on it, the
 three modal overlays, and the button, text and font handling used across all of them.
@@ -37,6 +41,10 @@ the game architecture built on top of it, not the engine itself.
 ---
 
 ## Architecture overview
+
+![The WAVES main menu, one of the fifteen screens built on the state interface](docs/waves-menu.gif)
+
+*Footage from the game trailer.* 
 
 ```
 Splash
@@ -490,7 +498,7 @@ I am also credited at fifteen percent on `Audio.cpp` and `Enemy.cpp`.
 ## Credits
 
 WAVES was built by five people. The systems above are mine. The rest of the game is not, and the
-larger parts of it belong to others.
+larger parts of it belong to others. The GIFs shown in this write-up, taken from the game trailer, were made by the WAVES team.
 
 Built on AlphaEngine, provided by DigiPen Institute of Technology Singapore.
 Copyright (C) 2025 DigiPen Institute of Technology.
